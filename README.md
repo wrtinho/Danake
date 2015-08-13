@@ -10,4 +10,4 @@ Software em linguagem C, que será intalado no roteador que liberará o acesso w
 * Brayan Rocha
 * Dione Max
 * George Faria
-* Herika Hellem 
+* Hérika Hellen 
