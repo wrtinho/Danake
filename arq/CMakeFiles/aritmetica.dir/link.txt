@@ -1,0 +1,2 @@
+/usr/bin/ar.exe cq libaritmetica.a  CMakeFiles/aritmetica.dir/aritmetica.c.o
+/usr/bin/ranlib.exe libaritmetica.a

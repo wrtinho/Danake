@@ -1,0 +1,2 @@
+/usr/bin/ar.exe cq libsqlite3.a  CMakeFiles/sqlite3.dir/sqlite3.c.o
+/usr/bin/ranlib.exe libsqlite3.a

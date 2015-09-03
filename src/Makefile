@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/src/CMakeFiles/progress.marks
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,70 +89,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named aritmetica
+# Convenience name for target.
+src/CMakeFiles/Danake.dir/rule:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Danake.dir/rule
+.PHONY : src/CMakeFiles/Danake.dir/rule
 
-# Build rule for target.
-aritmetica: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aritmetica
-.PHONY : aritmetica
-
-# fast build rule for target.
-aritmetica/fast:
-	$(MAKE) -f arq/CMakeFiles/aritmetica.dir/build.make arq/CMakeFiles/aritmetica.dir/build
-.PHONY : aritmetica/fast
-
-#=============================================================================
-# Target rules for targets named mongoose
-
-# Build rule for target.
-mongoose: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mongoose
-.PHONY : mongoose
-
-# fast build rule for target.
-mongoose/fast:
-	$(MAKE) -f arq/CMakeFiles/mongoose.dir/build.make arq/CMakeFiles/mongoose.dir/build
-.PHONY : mongoose/fast
-
-#=============================================================================
-# Target rules for targets named sqlite3
-
-# Build rule for target.
-sqlite3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sqlite3
-.PHONY : sqlite3
-
-# fast build rule for target.
-sqlite3/fast:
-	$(MAKE) -f arq/CMakeFiles/sqlite3.dir/build.make arq/CMakeFiles/sqlite3.dir/build
-.PHONY : sqlite3/fast
-
-#=============================================================================
-# Target rules for targets named Danake
-
-# Build rule for target.
-Danake: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Danake
+# Convenience name for target.
+Danake: src/CMakeFiles/Danake.dir/rule
 .PHONY : Danake
 
 # fast build rule for target.
 Danake/fast:
-	$(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/build
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/build
 .PHONY : Danake/fast
+
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -162,10 +148,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mongoose"
-	@echo "... aritmetica"
-	@echo "... sqlite3"
 	@echo "... Danake"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -177,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

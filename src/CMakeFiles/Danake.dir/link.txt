@@ -1,0 +1,1 @@
+/usr/bin/cc    -Wl,--enable-auto-import CMakeFiles/Danake.dir/main.c.o  -o Danake.exe -Wl,--out-implib,libDanake.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ../arq/libmongoose.a ../arq/libsqlite3.a ../arq/libaritmetica.a 

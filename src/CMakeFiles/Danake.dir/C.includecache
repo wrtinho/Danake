@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/aritmetica.h
+
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/mongoose.h
+stdio.h
+-
+stddef.h
+-
+
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/sqlite3.h
+stdarg.h
+-
+
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/src/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+../arq/mongoose.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/mongoose.h
+../arq/sqlite3.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/sqlite3.h
+../arq/aritmetica.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/aritmetica.h
+
