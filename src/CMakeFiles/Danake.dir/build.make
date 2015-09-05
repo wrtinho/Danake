@@ -81,9 +81,9 @@ Danake_EXTERNAL_OBJECTS =
 
 src/Danake.exe: src/CMakeFiles/Danake.dir/main.c.o
 src/Danake.exe: src/CMakeFiles/Danake.dir/build.make
-src/Danake.exe: arq/libmongoose.a
-src/Danake.exe: arq/libsqlite3.a
-src/Danake.exe: arq/libaritmetica.a
+src/Danake.exe: lib/libmongoose.a
+src/Danake.exe: lib/libsqlite3.a
+src/Danake.exe: lib/libaritmetica.a
 src/Danake.exe: src/CMakeFiles/Danake.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable Danake.exe"
 	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Danake.dir/link.txt --verbose=$(VERBOSE)

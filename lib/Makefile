@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/CMakeFiles/progress.marks
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/all
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/CMakeFiles/progress.marks
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/clean
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,12 +89,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/preinstall
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/preinstall
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -103,45 +103,45 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-arq/CMakeFiles/aritmetica.dir/rule:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/CMakeFiles/aritmetica.dir/rule
-.PHONY : arq/CMakeFiles/aritmetica.dir/rule
+lib/CMakeFiles/aritmetica.dir/rule:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/aritmetica.dir/rule
+.PHONY : lib/CMakeFiles/aritmetica.dir/rule
 
 # Convenience name for target.
-aritmetica: arq/CMakeFiles/aritmetica.dir/rule
+aritmetica: lib/CMakeFiles/aritmetica.dir/rule
 .PHONY : aritmetica
 
 # fast build rule for target.
 aritmetica/fast:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/aritmetica.dir/build.make arq/CMakeFiles/aritmetica.dir/build
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/aritmetica.dir/build.make lib/CMakeFiles/aritmetica.dir/build
 .PHONY : aritmetica/fast
 
 # Convenience name for target.
-arq/CMakeFiles/mongoose.dir/rule:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/CMakeFiles/mongoose.dir/rule
-.PHONY : arq/CMakeFiles/mongoose.dir/rule
+lib/CMakeFiles/mongoose.dir/rule:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/mongoose.dir/rule
+.PHONY : lib/CMakeFiles/mongoose.dir/rule
 
 # Convenience name for target.
-mongoose: arq/CMakeFiles/mongoose.dir/rule
+mongoose: lib/CMakeFiles/mongoose.dir/rule
 .PHONY : mongoose
 
 # fast build rule for target.
 mongoose/fast:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/mongoose.dir/build.make arq/CMakeFiles/mongoose.dir/build
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/mongoose.dir/build.make lib/CMakeFiles/mongoose.dir/build
 .PHONY : mongoose/fast
 
 # Convenience name for target.
-arq/CMakeFiles/sqlite3.dir/rule:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 arq/CMakeFiles/sqlite3.dir/rule
-.PHONY : arq/CMakeFiles/sqlite3.dir/rule
+lib/CMakeFiles/sqlite3.dir/rule:
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/sqlite3.dir/rule
+.PHONY : lib/CMakeFiles/sqlite3.dir/rule
 
 # Convenience name for target.
-sqlite3: arq/CMakeFiles/sqlite3.dir/rule
+sqlite3: lib/CMakeFiles/sqlite3.dir/rule
 .PHONY : sqlite3
 
 # fast build rule for target.
 sqlite3/fast:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/sqlite3.dir/build.make arq/CMakeFiles/sqlite3.dir/build
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/sqlite3.dir/build.make lib/CMakeFiles/sqlite3.dir/build
 .PHONY : sqlite3/fast
 
 aritmetica.o: aritmetica.c.o
@@ -149,7 +149,7 @@ aritmetica.o: aritmetica.c.o
 
 # target to build an object file
 aritmetica.c.o:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/aritmetica.dir/build.make arq/CMakeFiles/aritmetica.dir/aritmetica.c.o
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/aritmetica.dir/build.make lib/CMakeFiles/aritmetica.dir/aritmetica.c.o
 .PHONY : aritmetica.c.o
 
 aritmetica.i: aritmetica.c.i
@@ -157,7 +157,7 @@ aritmetica.i: aritmetica.c.i
 
 # target to preprocess a source file
 aritmetica.c.i:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/aritmetica.dir/build.make arq/CMakeFiles/aritmetica.dir/aritmetica.c.i
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/aritmetica.dir/build.make lib/CMakeFiles/aritmetica.dir/aritmetica.c.i
 .PHONY : aritmetica.c.i
 
 aritmetica.s: aritmetica.c.s
@@ -165,7 +165,7 @@ aritmetica.s: aritmetica.c.s
 
 # target to generate assembly for a file
 aritmetica.c.s:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/aritmetica.dir/build.make arq/CMakeFiles/aritmetica.dir/aritmetica.c.s
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/aritmetica.dir/build.make lib/CMakeFiles/aritmetica.dir/aritmetica.c.s
 .PHONY : aritmetica.c.s
 
 mongoose.o: mongoose.c.o
@@ -173,7 +173,7 @@ mongoose.o: mongoose.c.o
 
 # target to build an object file
 mongoose.c.o:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/mongoose.dir/build.make arq/CMakeFiles/mongoose.dir/mongoose.c.o
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/mongoose.dir/build.make lib/CMakeFiles/mongoose.dir/mongoose.c.o
 .PHONY : mongoose.c.o
 
 mongoose.i: mongoose.c.i
@@ -181,7 +181,7 @@ mongoose.i: mongoose.c.i
 
 # target to preprocess a source file
 mongoose.c.i:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/mongoose.dir/build.make arq/CMakeFiles/mongoose.dir/mongoose.c.i
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/mongoose.dir/build.make lib/CMakeFiles/mongoose.dir/mongoose.c.i
 .PHONY : mongoose.c.i
 
 mongoose.s: mongoose.c.s
@@ -189,7 +189,7 @@ mongoose.s: mongoose.c.s
 
 # target to generate assembly for a file
 mongoose.c.s:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/mongoose.dir/build.make arq/CMakeFiles/mongoose.dir/mongoose.c.s
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/mongoose.dir/build.make lib/CMakeFiles/mongoose.dir/mongoose.c.s
 .PHONY : mongoose.c.s
 
 sqlite3.o: sqlite3.c.o
@@ -197,7 +197,7 @@ sqlite3.o: sqlite3.c.o
 
 # target to build an object file
 sqlite3.c.o:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/sqlite3.dir/build.make arq/CMakeFiles/sqlite3.dir/sqlite3.c.o
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/sqlite3.dir/build.make lib/CMakeFiles/sqlite3.dir/sqlite3.c.o
 .PHONY : sqlite3.c.o
 
 sqlite3.i: sqlite3.c.i
@@ -205,7 +205,7 @@ sqlite3.i: sqlite3.c.i
 
 # target to preprocess a source file
 sqlite3.c.i:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/sqlite3.dir/build.make arq/CMakeFiles/sqlite3.dir/sqlite3.c.i
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/sqlite3.dir/build.make lib/CMakeFiles/sqlite3.dir/sqlite3.c.i
 .PHONY : sqlite3.c.i
 
 sqlite3.s: sqlite3.c.s
@@ -213,7 +213,7 @@ sqlite3.s: sqlite3.c.s
 
 # target to generate assembly for a file
 sqlite3.c.s:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f arq/CMakeFiles/sqlite3.dir/build.make arq/CMakeFiles/sqlite3.dir/sqlite3.c.s
+	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f lib/CMakeFiles/sqlite3.dir/build.make lib/CMakeFiles/sqlite3.dir/sqlite3.c.s
 .PHONY : sqlite3.c.s
 
 # Help Target

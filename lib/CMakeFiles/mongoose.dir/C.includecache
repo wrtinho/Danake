@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/mongoose.c
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/mongoose.c
 net_skeleton.h
-/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/net_skeleton.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/net_skeleton.h
 sys/types.h
 -
 sys/stat.h
@@ -76,13 +76,13 @@ inttypes.h
 pwd.h
 -
 mongoose.h
-/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/mongoose.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/mongoose.h
 sys/mman.h
 -
 solarisfixes.h
-/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/solarisfixes.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/solarisfixes.h
 
-/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/mongoose.h
+/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/mongoose.h
 stdio.h
 -
 stddef.h

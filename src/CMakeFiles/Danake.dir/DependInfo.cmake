@@ -10,9 +10,9 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/CMakeFiles/mongoose.dir/DependInfo.cmake"
-  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/CMakeFiles/sqlite3.dir/DependInfo.cmake"
-  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/CMakeFiles/aritmetica.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/CMakeFiles/mongoose.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/CMakeFiles/sqlite3.dir/DependInfo.cmake"
+  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/CMakeFiles/aritmetica.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

@@ -8,6 +8,7 @@
 #ifndef ARITMETICA_H
 #define	ARITMETICA_H
 
+    extern int resultado; 
     int adicao (int a, int b);
     int mult (int a, int b);
 

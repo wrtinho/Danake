@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/mongoose.c" "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/arq/CMakeFiles/mongoose.dir/mongoose.c.o"
+  "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/aritmetica.c" "/cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/lib/CMakeFiles/aritmetica.dir/aritmetica.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
