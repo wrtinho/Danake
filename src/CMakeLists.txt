@@ -8,7 +8,5 @@ target_link_libraries(Danake mongoose)
 
 target_link_libraries(Danake sqlite3)
 
-target_link_libraries(Danake aritmetica)
-
 target_link_libraries (Danake ${CMAKE_THREAD_LIBS_INIT})
 
