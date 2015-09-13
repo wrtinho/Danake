@@ -43,10 +43,10 @@ RM = /usr/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake
+CMAKE_BINARY_DIR = /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,14 +73,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/src/CMakeFiles/progress.marks
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake/CMakeFiles 0
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake/CMakeFiles /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake/src/CMakeFiles/progress.marks
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -89,22 +89,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Danake.dir/rule:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Danake.dir/rule
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Danake.dir/rule
 .PHONY : src/CMakeFiles/Danake.dir/rule
 
 # Convenience name for target.
@@ -113,7 +113,7 @@ Danake: src/CMakeFiles/Danake.dir/rule
 
 # fast build rule for target.
 Danake/fast:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/build
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/build
 .PHONY : Danake/fast
 
 main.o: main.c.o
@@ -121,7 +121,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.o
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -129,7 +129,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.i
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -137,7 +137,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.s
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(MAKE) -f src/CMakeFiles/Danake.dir/build.make src/CMakeFiles/Danake.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -163,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cygdrive/c/Users/Donatello/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /cygdrive/c/Users/donat/Documents/NetBeansProjects/Danake && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
