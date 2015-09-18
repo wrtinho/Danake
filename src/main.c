@@ -35,9 +35,7 @@ static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
                 for (x = 0; (ch = fgetc(arq)) != EOF && x < Tbuffer; x++) {
                     buffer[x] = ch;
                 }
-                if (fclose(arq) == EOF) {
-                    printf("Error 404 - Página não encontrada\n");
-                }
+               fclose(arq);
             }
 
             mg_printf_data(conn, buffer);
