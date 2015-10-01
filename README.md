@@ -9,9 +9,9 @@ Software em linguagem C, que será instalado no roteador que liberará o acesso 
 
 * Adalton Dantas
 * Brayan Rocha
+* Christian Maia
 * Dione Max
 * George Faria
-* Hérika Hellen 
 
 ##Wiki
 [Clique Aqui](https://github.com/donatelloferraz/Danake/wiki) 
