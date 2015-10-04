@@ -4,6 +4,7 @@ project(Danake)
 
 add_library(mongoose mongoose.c)
 add_library(sqlite3 sqlite3.c)
+add_library(index index.c)
 
 find_package(Threads)
 
@@ -13,5 +14,6 @@ add_executable(Danake main.c)
 
 target_link_libraries(Danake mongoose)
 target_link_libraries(Danake sqlite3)
+target_link_libraries(Danake index)
 
 target_link_libraries (Danake ${CMAKE_THREAD_LIBS_INIT})

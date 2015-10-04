@@ -10,39 +10,29 @@
 #include <string.h>
 #include "mongoose.h"
 #include "sqlite3.h"
+#include "index.h"
 
 #define Tbuffer 150000
 
 static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
     char buffer[Tbuffer];
     buffer[0] = '\x0';
-    FILE *arq;
-    char ch;
-    int x;
 
     switch (ev) {
         case MG_AUTH:
             return MG_MORE;
 
         case MG_REQUEST:
-            mg_send_header(conn, "Content-Type", "text/html");
-            
-            char index[] ="index.html";
-            arq = fopen(index, "r");
-            if (arq == NULL) {
-                printf("Error 404 - Página não encontrada\n");
-            } else {
-                for (x = 0; (ch = fgetc(arq)) != EOF && x < Tbuffer; x++) {
-                    buffer[x] = ch;
-                }
-                if (fclose(arq) == EOF) {
-                    printf("Error 404 - Página não encontrada\n");
-                }
-            }
-
-            mg_printf_data(conn, buffer);
-
-            return MG_TRUE;
+	
+			mg_send_header(conn, "Content-Type", "text/html");
+		
+			if(home(buffer, sizeof(buffer)) == 0){
+				return MG_FALSE;
+			}
+		
+			mg_printf_data(conn, buffer);
+			return MG_TRUE;	
+			
         default:
             return MG_FALSE;
     }
