@@ -1,11 +1,4 @@
-﻿/* 
- * File:   main.c
- * Author: Donatello
- *
- * Created on 27 de Agosto de 2015, 14:01
- */
-
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "mongoose.h"
@@ -13,6 +6,10 @@
 #include "index.h"
 
 #define Tbuffer 150000
+
+/************************************
+			Web server 
+************************************/
 
 static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
     char buffer[Tbuffer];
@@ -37,6 +34,10 @@ static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
             return MG_FALSE;
     }
 }
+
+/************************************
+				Main 
+************************************/
 
 int main(void) {
 

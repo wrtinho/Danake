@@ -6,6 +6,10 @@
 #define TAMBUFF 1500000
 #define TAMBUFF_l 500000
 
+/************************************
+				Login 
+************************************/
+
 void login (char *l, size_t s){
 	
 	char buffer_l[TAMBUFF_l];
@@ -16,6 +20,9 @@ void login (char *l, size_t s){
 }
 
 
+/************************************
+				Home 
+************************************/
 
 int home(char *b, size_t s){
 
