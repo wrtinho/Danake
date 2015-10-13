@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Danake</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="adjunct/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+	<div id="conteudo">
+		<p>Para acesso a internet, faça login.</p>
+
+		<fb:login-button data-size="xlarge" data-show-faces="true" data-auto-logout-link="true" scope="public_profile, email" onlogin="checkLoginState();"></fb:login-button>
+
+		<div id="status">
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="adjunct/jquery/jquery.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="adjunct/bootstrap/js/bootstrap.min.js"></script>
+	
+    	<!-- Custom JavaScript -->
+    	<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,22 +1,17 @@
-﻿/* 
- * File:   main.c
- * Author: Donatello
- *
- * Created on 27 de Agosto de 2015, 14:01
- */
-
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "mongoose.h"
-#include "sqlite3.h"
-#include "index.h"
+#include "../lib/mongoose.h"
+#include "../lib/sqlite3.h"
+#include "../src/routes.h"
+#include "../src/resources.h"
 
-#define Tbuffer 150000
+/************************************
+			Web server 
+************************************/
 
 static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
-    char buffer[Tbuffer];
-    buffer[0] = '\x0';
+	int exec_result;
 
     switch (ev) {
         case MG_AUTH:
@@ -24,19 +19,27 @@ static int ev_handler(struct mg_connection *conn, enum mg_event ev) {
 
         case MG_REQUEST:
 	
-			mg_send_header(conn, "Content-Type", "text/html");
-		
-			if(home(buffer, sizeof(buffer)) == 0){
-				return MG_FALSE;
-			}
-		
-			mg_printf_data(conn, buffer);
+			fprintf(stdout, "Processing %s\n", conn->uri);
+            
+			exec_result = exec_route(conn->uri, conn);
+
+				if (exec_result == 404) {
+					return MG_FALSE;
+				}
+				else if (!exec_result) {
+					return MG_FALSE;
+				}
+						
 			return MG_TRUE;	
 			
         default:
             return MG_FALSE;
     }
 }
+
+/************************************
+				Main 
+************************************/
 
 int main(void) {
 
