@@ -1,11 +1,6 @@
 #ifndef __ROUTES__
 #define __ROUTES__
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "../lib/mongoose.h"
-
 #define MAX_ENTRY_ROUTE_TABLE 10000
 #define LEN_PREFIX_ROUTE_TABLE 1024
 

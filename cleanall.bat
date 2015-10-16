@@ -17,8 +17,8 @@ rm lib/*.a
 rm src/Makefile
 rm src/CMakeFiles -rf
 rm src/cmake_install.cmake
-rm src/*.exe
 rm src/*.a
+rm src/*.exe
 
 #clean web folder
 rm web/Makefile
