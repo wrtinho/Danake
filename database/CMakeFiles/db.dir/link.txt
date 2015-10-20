@@ -1,0 +1,2 @@
+/usr/bin/ar.exe cq libdb.a  CMakeFiles/db.dir/db.c.o
+/usr/bin/ranlib.exe libdb.a

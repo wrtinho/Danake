@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/Repositorios/Danake/database/db.c
+db.h
+/cygdrive/d/Repositorios/Danake/database/db.h
+
+/cygdrive/d/Repositorios/Danake/database/db.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+../lib/mongoose.h
+/cygdrive/d/Repositorios/Danake/lib/mongoose.h
+../lib/sqlite3.h
+/cygdrive/d/Repositorios/Danake/lib/sqlite3.h
+../src/routes.h
+/cygdrive/d/Repositorios/Danake/src/routes.h
+../src/resources.h
+/cygdrive/d/Repositorios/Danake/src/resources.h
+
+/cygdrive/d/Repositorios/Danake/lib/mongoose.h
+stdio.h
+-
+stddef.h
+-
+
+/cygdrive/d/Repositorios/Danake/lib/sqlite3.h
+stdarg.h
+-
+
+/cygdrive/d/Repositorios/Danake/src/resources.h
+
+/cygdrive/d/Repositorios/Danake/src/routes.h
+
