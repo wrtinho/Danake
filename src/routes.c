@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "../lib/mongoose.h"
-#include "../src/routes.h"
+#include "routes.h"
 
 static route route_array[MAX_ENTRY_ROUTE_TABLE];
 

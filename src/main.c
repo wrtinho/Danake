@@ -3,8 +3,8 @@
 #include <string.h>
 #include "../lib/mongoose.h"
 #include "../lib/sqlite3.h"
-#include "../src/routes.h"
-#include "../src/resources.h"
+#include "routes.h"
+#include "resources.h"
 
 /************************************
 			Web server 
@@ -49,6 +49,9 @@ int main(void) {
     mg_set_option(server, "document_root", ".");
     mg_set_option(server, "listening_port", "8080");
 
+	init_routes_table();
+	init_resources_table();
+	
     // Requisição do servidor. Ctrl-C Para terminar o programa
     printf("Starting on port %s\n", mg_get_option(server, "listening_port"));
     for (;;) {
